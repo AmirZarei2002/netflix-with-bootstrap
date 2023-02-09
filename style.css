@@ -7,8 +7,53 @@
 body {
     font-family: 'Poppins', serif;
 }
+@media (max-width: 576px) {
+    .netflix__container {
+        width: 70px;
+    }
+    .netflix__logo {
+        width: max-content;
+        height: 60px;
+    }
+    .hero__title {
+        font-size: 2rem;
+        margin: 0 0.3rem 0 0.3rem;
+    }
+    .hero__subtitle {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .hero__description {
+        margin: 0 0.6rem 0 0.6rem;
+        font-weight: 500;
+    }
+    .primary__button {
+        padding: 0.4rem 1rem 0.4rem 1rem;
+        border: none;
+        border-radius: 2px;
+    }
+    .hero__card {
+        top: 20%;
+        gap: 15px;
+    }
+    .email__form__container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .form__container {
+        width: 90%;
+        height: 40px;
+    }
+}
 
 @media (min-width: 768px) {
+    .netflix__container {
+        width: 150px;
+    }
+    .netflix__logo {
+        width: max-content;
+        height: 100px;
+    }
     .hero__bg__image__container {
         height: 100vh;
     }
@@ -17,23 +62,35 @@ body {
         height: 100vh;
     }
     .hero__card {
-        top: 40%;
+        top: 30%;
         left: 30%;
         transform: translate(-20%, -20%);
     }
     .hero__title {
         font-size: 3rem;
+        font-weight: 700;
     }
     .hero__subtitle,
     .hero__description {
         font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .primary__button {
+        padding: 0.4rem 1rem 0.4rem 1rem;
+        font-weight: 400;
+        border-radius: 3px;
+    }
+    .email__form__container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .form__container {
+        width: 90%;
+        height: 50px;
     }
 }
 
-@media (min-width: 1024px) {
-    .navbar {
-        padding: 2% 5%;
-    }
+@media (max-width: 1024px) {
 
     .navbar__brand {
         width: 150px;
@@ -50,18 +107,104 @@ body {
     .navbar__nav__items {
         gap: 30px;
     }
+    .netflix__container {
+        width: 200px;
+    }
+    .netflix__logo {
+        width: max-content;
+        height: 100px;
+    }
 
     .hero__card {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        gap: 13px;
+    }
+    .hero__subtitle {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .hero__description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 400;
     }
     .email__form__container {
         flex-direction: row;
         align-items: center;
-        gap: 1px;
+        gap: 0;
     }
     .form__container {
-        width: 50%;
+        width: 90%;
+    }
+    .primary__button {
+        letter-spacing: 1px;
+        outline: none;
+        padding: 10px 60px 10px 35px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: larger;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1440px) {
+    .navbar__brand {
+        width: 150px;
+    }
+    .signin__button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .dropdown__container {
+        padding: 10px 5px;
+    }
+
+    .navbar__nav__items {
+        gap: 30px;
+    }
+
+    .hero__card {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 13px;
+    }
+    .hero__title {
+        font-size: 3rem;
+    }
+    .hero__subtitle {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .hero__description {
+        font-size: 1.3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 400;
+    }
+    .email__form__container {
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+    }
+    .form__container {
+        width: 90%;
+        height: 4rem;
+    }
+    .primary__button {
+        border: 1px solid;
+        border-color: #dc030f;
+        letter-spacing: 1px;
+        margin-top: 1px;
+        padding: 16px 61.5px 10.5px 36px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: larger;
+        font-weight: 500;
+        height: 4.1rem;
     }
 }

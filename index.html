@@ -35,16 +35,15 @@
             <nav
                 class="navbar position-absolute w-100 d-flex top-0 justify-content-between"
                 style="
-                    padding-top: 3%;
                     padding-bottom: 3%;
                     padding-right: 5%;
                     padding-left: 3%;
                     z-index: 10;
                 "
             >
-                <div class="h-100" style="width: 100px">
+                <div class="h-100 netflix__container">
                     <img
-                        class="w-100 h-100"
+                        class="netflix__logo"
                         src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
                         alt="logo"
                     />
@@ -106,10 +105,9 @@
                     />
                 </div>
                 <div
-                    class="position-absolute w-100 hero__bg__overlay"
+                    class="position-absolute h-100 w-100 hero__bg__overlay"
                     style="
                         inset: 0;
-                        height: 80vh;
                         background: rgba(0, 0, 0, 0.4);
                         background-image: linear-gradient(
                             rgba(0, 0, 0, 0.8) 0,
@@ -119,37 +117,24 @@
                     "
                 ></div>
                 <div
-                    class="position-absolute align-content-center d-flex flex-column hero__card"
-                    style="top: 20%; gap: 10px;"
+                    class="hero__card position-absolute align-content-center d-flex flex-column"
                 >
-                    <h1
-                        class="hero__title"
-                        style="font-size: 2rem; font-weight: 600"
-                    >
-                        Unlimited movies, TV<br />
+                    <h1 class="hero__title">
+                        Unlimited movies, TV <br />
                         shows, and more.
                     </h1>
-                    <p
-                        class="hero__subtitle"
-                        style="font-size: 1rem; font-weight: 500"
-                    >
+                    <p class="hero__subtitle mb-0">
                         Watch anywhere. cancel anytime.
                     </p>
-                    <p
-                        class="hero__description"
-                        style="font-size: 1rem; font-weight: 500"
-                    >
+                    <p class="hero__description">
                         Ready to watch? Enter your email to create or restart
                         your membership.
                     </p>
 
                     <div
-                        class="d-flex flex-column gap-3 justify-content-center align-items-center email__form__container"
+                        class="d-flex h-100 justify-content-center align-items-center email__form__container"
                     >
-                        <div
-                            class="bg-white position-relative form__container"
-                            style="width: 90%; height: 50px"
-                        >
+                        <div class="bg-white position-relative form__container">
                             <input
                                 class="border-0 bg-transparent w-100 h-100 ps-2 rounded-1"
                                 type="email"
@@ -157,13 +142,10 @@
                             />
                         </div>
                         <button
-                            class="border text-white rounded-1 primary__button"
+                            class="text-white d-flex gap-2 text-truncate primary__button"
                             style="
-                                padding: 0.4rem 1rem;
-                                border: 1px solid #dc030f;
                                 background-color: #dc030f;
-                                letter-spacing: 1px;
-                                outline: none;
+                                align-items: baseline;
                             "
                         >
                             Get Started <i class="fal fa-chevron-right"></i>
