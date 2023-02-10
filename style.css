@@ -51,6 +51,9 @@ body {
     .feature__details {
         margin-top: 2rem;
     }
+    .feature__2__backgroud__video__container {
+        left: 19%;
+    }
     .first__sub__break {
         display: none;
     }
@@ -129,6 +132,9 @@ body {
     .feature__4__poster__container {
         max-width: 26em;
         height: 85px;
+    }
+    .feature__2__backgroud__video__container {
+        left: 19%;
     }
     .poster__container {
         width: 15%;
@@ -239,6 +245,9 @@ body {
         font-size: 20px;
         padding: 0 1rem;
     }
+    .feature__2__backgroud__video__container {
+        left: 19%;
+    }
     .first__sub__break {
         display: block;
     }
@@ -335,6 +344,9 @@ body {
     .feature {
         padding: 0 16rem 0 16rem;
     }
+    .feature__2__backgroud__video__container {
+        left: 19%;
+    }
     .first__sub__break {
         display: block;
     }
@@ -365,6 +377,9 @@ body {
     #feature__2__image {
         padding-right: 10rem;
     }
+    .feature__2__backgroud__video__container {
+        left: 9%;
+    }
     .FAQ__list {
         margin: 0 28rem;
     }
@@ -381,5 +396,8 @@ body {
     }
     #feature__3 {
         padding-left: 40rem;
+    }
+    .feature__2__backgroud__video__container {
+        left: 9%;
     }
 }
