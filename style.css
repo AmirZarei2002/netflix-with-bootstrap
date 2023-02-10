@@ -476,12 +476,12 @@ body {
 //     }
 // }
 
-// @media (min-height: 780px) {
-//     .hero__bg__image__container,
-//     .hero__bg__overlay {
-//         height: 80vh;
-//     }
-//     .hero__card {
-//         top: 40%;
-//     }
-// }
+@media (max-height: 560px) {
+    .hero__bg__image__container,
+    .hero__bg__overlay {
+        height: 160vh;
+    }
+    .hero__card {
+        top: 55%;
+    }
+}
