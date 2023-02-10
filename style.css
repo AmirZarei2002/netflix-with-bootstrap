@@ -67,6 +67,9 @@ body {
     .footer__row__4 {
         padding-right: 5rem;
     }
+    .footer__row__2 {
+        gap: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -140,6 +143,30 @@ body {
     .second__sub__break {
         display: none;
     }
+    .FAQ__heading {
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .FAQ__list {
+        padding: 1rem 5rem;
+    }
+    .FAQ__get__started__email {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(15%);
+    }
+    .fifth__breaker {
+        display: none;
+    }
+    .sixth__breaker {
+        display: none;
+    }
+    .footer__row__2 {
+        gap: 3rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -210,7 +237,7 @@ body {
     }
     .feature__sub__title {
         font-size: 20px;
-        padding: 0;
+        padding: 0 1rem;
     }
     .first__sub__break {
         display: block;
@@ -221,6 +248,21 @@ body {
     #feature__2 {
         padding: 4rem 0;
     }
+    .FAQ__list {
+        margin: 0 3rem;
+    }
+    .FAQ__title {
+        font-size: 2rem;
+    }
+    .FAQ__get__started__email {
+        transform: translateX(16%);
+    }
+    .FAQ__get__started__email > h3 {
+        font-size: 18px;
+    }
+    #email__second__form {
+        margin: 0 5rem;
+    }
     footer {
         padding: 2rem 20rem;
         text-align: left;
@@ -229,14 +271,8 @@ body {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: nowrap;
+        gap: 10rem;
     }
-    // .footer__row__1 {
-    //     padding-right: 12rem;
-    // }
-    // .footer__row__3,
-    // .footer__row__4 {
-    //     padding-right: 11rem;
-    // }
 }
 
 @media (min-width: 1440px) {
@@ -311,6 +347,15 @@ body {
     #feature__2 {
         padding-left: 10rem;
     }
+    .FAQ__list {
+        margin: 0 5rem;
+    }
+    .FAQ__get__started__email > h3 {
+        font-size: 22px;
+    }
+    #email__second__form {
+        margin: 0 10rem;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -319,6 +364,12 @@ body {
     }
     #feature__2__image {
         padding-right: 10rem;
+    }
+    .FAQ__list {
+        margin: 0 28rem;
+    }
+    #email__second__form {
+        margin: 0 20rem;
     }
 }
 @media (min-width: 2560px) {
