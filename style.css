@@ -87,13 +87,13 @@ body {
         height: 100px;
     }
     .hero__bg__image__container {
-        height: 80vh;
+        height: 110vh;
     }
     .hero__bg__overlay {
-        height: 80vh;
+        height: 110vh;
     }
     .hero__card {
-        top: 30%;
+        top: 40%;
         left: 30%;
         transform: translate(-20%, -20%);
     }
@@ -124,6 +124,20 @@ body {
     }
 }
 
+@media (min-width: 600px) {
+    .hero__bg__image__container {
+        height: 125vh;
+    }
+
+    .hero__bg__overlay {
+        height: 125vh;
+    }
+    .hero__card {
+        top: 45%;
+        left: 30%;
+        transform: translate(-20%, -20%);
+    }
+}
 @media (min-width: 768px) {
     .netflix__container {
         width: 150px;
