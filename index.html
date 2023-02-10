@@ -93,7 +93,7 @@
 
         <main>
             <!-- hero -->
-            <section class="text-center">
+            <section>
                 <div
                     class="w-100 hero__bg__image__container"
                     style="height: 80vh"
@@ -117,7 +117,7 @@
                     "
                 ></div>
                 <div
-                    class="hero__card position-absolute align-content-center d-flex flex-column"
+                    class="hero__card position-absolute text-center align-content-center d-flex flex-column"
                 >
                     <h1 class="hero__title">
                         Unlimited movies, TV <br />
@@ -153,9 +153,10 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="all__features">
                 <!-- Feature 1 -->
                 <div
+                id="feature__1"
                     class="feature border-top border-5 border-secondary pt-5 pb-5 text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center align-items-lg-baseline d-flex flex-column flex-lg-row"
                 >
                     <div
@@ -224,13 +225,13 @@
                         </h5>
                     </div>
                     <div
-                        class="feature__image__container feature__2__image__container position-relative"
+                        class="feature__image__container position-relative"
                         style="z-index: 1"
                     >
                         <img
                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
                             alt="Feature image"
-                            class="feature__2__image feature__image w-100"
+                            class="feature__image w-100"
                         />
                         <div
                             class="feature__backgroud__video__container feature__2__backgroud__video__container position-absolute h-100 w-100"
@@ -253,6 +254,107 @@
                                     type="video/mp4"
                                 />
                             </video>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div
+                id="feature__3"
+                    class="feature border-top border-5 border-secondary pt-5 pb-5 text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center d-flex flex-column flex-lg-row align-items-xl-baseline"
+                >
+                    <div
+                        class="feature__details gap-3 d-flex flex-column text-center ps-1 pe-1"
+                    >
+                        <h3
+                            class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start"
+                        >
+                            Create profiles for kids.
+                        </h3>
+                        <h5 class="feature__sub__title lh-base text-lg-start">
+                            Send kids on adventures with their favorite
+                            <br class="third__sub__break" />
+                            characters in a space made just for them—<br class="forth__sub__break"/>free
+                            with your membership.
+                        </h5>
+                    </div>
+                    <div class="feature__image__container position-relative">
+                        <img
+                            src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
+                            alt="Feature image"
+                            class="feature__image h-100 w-100"
+                        />
+                    </div>
+                </div>
+                <!-- Feature 4 -->
+                <div
+                    class="feature border-top border-5 border-secondary text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center align-items-lg-baseline d-flex flex-column flex-lg-row-reverse"
+                >
+                    <div
+                        class="feature__details gap-3 d-flex flex-column text-center pe-1 ps-1"
+                    >
+                        <h3
+                            class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start"
+                        >
+                            Download your shows
+                            to<br class="third__sub__break" /> watch offline.
+                        </h3>
+                        <h5 class="feature__sub__title lh-base text-lg-start">
+                            Available on all plans except Basic with ads.
+                        </h5>
+                    </div>
+                    <div
+                        class="feature__image__container align-self-center align-self-lg-baseline position-relative"
+                    >
+                        <img
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                            alt="Feature image"
+                            class="feature__image w-100"
+                            id="feature__4__image"
+                        />
+                        <div
+                            class="feature__4__poster__container position-absolute w-100 d-flex align-items-center bg-black border-2"
+                            style="
+                                bottom: 8%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                max-width: 16em;
+                                border-radius: 10px;
+                                height: 60px;
+                                padding: 0.25rem 0.6rem;
+                                gap: 15px;
+                            "
+                        >
+                            <div class="poster__container" style="width: 20%">
+                                <img
+                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                                    alt="poster"
+                                    class="poster w-100 h-100"
+                                />
+                            </div>
+                            <div class="poster__details" style="width: 60%">
+                                <h4 style="font-size: 12px; font-weight: 500">
+                                    Stranger Things
+                                </h4>
+                                <h6
+                                    style="
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        color: rgb(26, 81, 233);
+                                    "
+                                >
+                                    Downloading...
+                                </h6>
+                            </div>
+                            <div
+                                class="gif__container h-100"
+                                style="width: 20%"
+                            >
+                                <img
+                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                                    alt="downloading gif"
+                                    class="gif w-100 h-100"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
