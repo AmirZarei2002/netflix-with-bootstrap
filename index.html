@@ -156,7 +156,7 @@
             <section class="all__features">
                 <!-- Feature 1 -->
                 <div
-                id="feature__1"
+                    id="feature__1"
                     class="feature border-top border-5 border-secondary pt-5 pb-5 text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center align-items-lg-baseline d-flex flex-column flex-lg-row"
                 >
                     <div
@@ -174,7 +174,7 @@
                             Chromecast, Apple TV, Blu-ray players, and more.
                         </h5>
                     </div>
-                    <div class="feature__image__container position-relative">
+                    <div class="position-relative">
                         <img
                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
                             alt="Feature image"
@@ -224,13 +224,11 @@
                             paying more.
                         </h5>
                     </div>
-                    <div
-                        class="feature__image__container position-relative"
-                        style="z-index: 1"
-                    >
+                    <div class="position-relative" style="z-index: 1">
                         <img
                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
                             alt="Feature image"
+                            id="feature__2__image"
                             class="feature__image w-100"
                         />
                         <div
@@ -259,7 +257,7 @@
                 </div>
                 <!-- Feature 3 -->
                 <div
-                id="feature__3"
+                    id="feature__3"
                     class="feature border-top border-5 border-secondary pt-5 pb-5 text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center d-flex flex-column flex-lg-row align-items-xl-baseline"
                 >
                     <div
@@ -273,11 +271,12 @@
                         <h5 class="feature__sub__title lh-base text-lg-start">
                             Send kids on adventures with their favorite
                             <br class="third__sub__break" />
-                            characters in a space made just for them—<br class="forth__sub__break"/>free
-                            with your membership.
+                            characters in a space made just for them—<br
+                                class="forth__sub__break"
+                            />free with your membership.
                         </h5>
                     </div>
-                    <div class="feature__image__container position-relative">
+                    <div class="position-relative">
                         <img
                             src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
                             alt="Feature image"
@@ -295,21 +294,23 @@
                         <h3
                             class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start"
                         >
-                            Download your shows
-                            to<br class="third__sub__break" /> watch offline.
+                            Download your shows to<br
+                                class="third__sub__break"
+                            />
+                            watch offline.
                         </h3>
                         <h5 class="feature__sub__title lh-base text-lg-start">
                             Available on all plans except Basic with ads.
                         </h5>
                     </div>
                     <div
-                        class="feature__image__container align-self-center align-self-lg-baseline position-relative"
+                        id="feature__image__container"
+                        class="align-self-center align-self-lg-baseline position-relative"
                     >
                         <img
                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
                             alt="Feature image"
                             class="feature__image w-100"
-                            id="feature__4__image"
                         />
                         <div
                             class="feature__4__poster__container position-absolute w-100 d-flex align-items-center bg-black border-2"
@@ -360,6 +361,87 @@
                 </div>
             </section>
         </main>
+
+        <footer
+            class="justify-content-center d-flex bg-black pt-5"
+            style="
+                color: #757575;
+                border-top: 8px solid #333;
+                gap: 20px;
+                padding: 2rem 1rem;
+            "
+        >
+            <div class="d-inline-block">
+                <div class="footer__row__1 pb-3 mx-auto">
+                    <h4 style="font-size: 15px; font-weight: 500">
+                        Questions? Call 000-800-040-1843
+                    </h4>
+                </div>
+                <div
+                    class="footer__row__2 d-flex flex-wrap justify-content-around mx-auto"
+                    style="gap: 20px"
+                >
+                    <div class="column__1" style="font-size: 12px">
+                        <p>FAQ</p>
+                        <p>Media Center</p>
+                        <p>Redeem Gift Cards</p>
+                        <p>Privacy</p>
+                        <p>Speed Test</p>
+                    </div>
+                    <div class="column__2" style="font-size: 12px">
+                        <p>Cancel Membership</p>
+                        <p>Investor Relations</p>
+                        <p>Buy Gift Cards</p>
+                        <p>Cookie Preferences</p>
+                        <p>Legal Guarantee</p>
+                    </div>
+
+                    <div class="column__3" style="font-size: 12px">
+                        <p>Help Center</p>
+                        <p>Jobs</p>
+                        <p>Ways to Watch</p>
+                        <p>Impressum</p>
+                        <p>Legal Notices</p>
+                    </div>
+                    <div class="column__4" style="font-size: 12px">
+                        <p>Account</p>
+                        <p>Netflix Shop</p>
+                        <p>Terms of Use</p>
+                        <p>Contact Us</p>
+                        <p>Only on Netflix</p>
+                    </div>
+                </div>
+
+                <div class="footer__row__3 mx-auto">
+                    <div
+                        class="rounded-1 mb-4"
+                        style="
+                            width: fit-content;
+                            border: 1px solid #636363;
+                            color: #757575;
+                            padding: 0.6rem;
+                        "
+                    >
+                        <i class="fas fa-globe"></i>
+                        <select
+                            name="languages"
+                            id="languagesSelect"
+                            style="
+                                color: white;
+                                background-color: black;
+                                border: 0;
+                            "
+                        >
+                            <option value="english" selected>English</option>
+                            <option value="persian">persian</option>
+                        </select>
+                    </div>
+                    <div class="footer__row__4" style="font-size: 14px">
+                        <p>Netflix Persian</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- scripts import -->
         <script src="/app.js"></script>
     </body>
