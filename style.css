@@ -8,9 +8,6 @@ body {
     font-family: 'Poppins', serif;
 }
 
-.feature {
-    border-color: #ccc;
-}
 @media (max-width: 576px) {
     .netflix__container {
         width: 70px;
@@ -51,11 +48,14 @@ body {
         width: 90%;
         height: 40px;
     }
-    #first__sub__break {
-        display: none;
-    }
     .feature__details {
         margin-top: 2rem;
+    }
+    .first__sub__break {
+        display: none;
+    }
+    .second__sub__break {
+        display: none;
     }
 }
 
@@ -113,7 +113,10 @@ body {
     .feature__details {
         margin-top: 2rem;
     }
-    #first__sub__break {
+    .first__sub__break {
+        display: none;
+    }
+    .second__sub__break {
         display: none;
     }
 }
@@ -188,8 +191,11 @@ body {
         font-size: 20px;
         padding: 0;
     }
-    #first__sub__break {
+    .first__sub__break {
         display: block;
+    }
+    #feature__2 {
+        padding: 4rem 0;
     }
 }
 

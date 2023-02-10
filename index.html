@@ -156,21 +156,21 @@
             <section>
                 <!-- Feature 1 -->
                 <div
-                    class="feature border-top border-5 border-secondary text-white bg-black justify-content-sm-center justify-content-lg-start d-flex flex-column flex-lg-row"
+                    class="feature border-top border-5 border-secondary pt-5 pb-5 text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center align-items-lg-baseline d-flex flex-column flex-lg-row"
                 >
                     <div
                         class="feature__details gap-3 d-flex flex-column text-center"
                     >
-                        <h3 class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start">
+                        <h3
+                            class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start"
+                        >
                             Enjoy on your TV.
                         </h3>
-                        <h5
-                            class="feature__sub__title lh-base text-lg-start"
-                        >
+                        <h5 class="feature__sub__title lh-base text-lg-start">
                             Watch on Smart TVs, Playstation, Xbox,<br
-                            id="first__sub__break" /> Chromecast, Apple TV,
-                            Blu-ray players,
-                            and more.
+                                class="first__sub__break"
+                            />
+                            Chromecast, Apple TV, Blu-ray players, and more.
                         </h5>
                     </div>
                     <div class="feature__image__container position-relative">
@@ -179,7 +179,15 @@
                             alt="Feature image"
                             class="feature__image w-100"
                         />
-                        <div class="feature__backgroud__video__container position-absolute h-100 w-100 " style="top: 21%; left: 13%; max-width: 73%; max-height: 54%;">
+                        <div
+                            class="feature__backgroud__video__container position-absolute h-100 w-100"
+                            style="
+                                top: 21%;
+                                left: 13%;
+                                max-width: 73%;
+                                max-height: 54%;
+                            "
+                        >
                             <video
                                 autoplay
                                 loop
@@ -188,6 +196,60 @@
                             >
                                 <source
                                     src="/assets/video-tv-0819.mp4"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div
+                    id="feature__2"
+                    class="feature border-top border-5 border-secondary text-white bg-black justify-content-sm-center justify-content-lg-start justify-content-between gap-lg-5 justify-content-xl-center align-items-lg-baseline d-flex flex-column flex-lg-row-reverse"
+                >
+                    <div
+                        class="feature__details gap-3 d-flex flex-column text-center"
+                    >
+                        <h3
+                            class="feature__title fa-x fw-bold mt-1 mb-1 text-lg-start"
+                        >
+                            Watch everywhere.
+                        </h3>
+                        <h5 class="feature__sub__title lh-base text-lg-start">
+                            Stream unlimited movies and TV shows on
+                            <br class="first__sub__break" />
+                            your phone, tablet, laptop, and TV without
+                            <br class="second__sub__break" />
+                            paying more.
+                        </h5>
+                    </div>
+                    <div
+                        class="feature__image__container feature__2__image__container position-relative"
+                        style="z-index: 1"
+                    >
+                        <img
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                            alt="Feature image"
+                            class="feature__2__image feature__image w-100"
+                        />
+                        <div
+                            class="feature__backgroud__video__container feature__2__backgroud__video__container position-absolute h-100 w-100"
+                            style="
+                                top: 9%;
+                                left: 19%;
+                                max-width: 63%;
+                                max-height: 47%;
+                                z-index: -2;
+                            "
+                        >
+                            <video
+                                autoplay
+                                loop
+                                muted
+                                class="feature__backgroud__video w-100 h-100"
+                            >
+                                <source
+                                    src="/assets//video-devices.mp4"
                                     type="video/mp4"
                                 />
                             </video>
